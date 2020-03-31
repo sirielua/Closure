@@ -5,7 +5,7 @@ const array = (...values) => {
 
   getter.push = value => values.push(value);
   getter.pop = () => values.pop();
-  
+
   return getter;
 };
 
